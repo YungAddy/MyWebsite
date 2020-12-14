@@ -1,0 +1,41 @@
+:root {
+    /* Purple Theme */
+  --mainColor: linear-gradient(
+    to bottom,
+    #7a08fa,
+    #a82ffc,
+    #c264fe,
+    #f8ecfd
+  );
+  --secondaryColor: #edd5fe ;
+  --footerColor: linear-gradient(
+    to top,
+    #7a08fa,
+    #a82ffc,
+    #c264fe,
+    #f8ecfd
+  );
+
+  --borderColor: #1d1520;
+
+  --mainText: #fff;
+  --sectionText: #a82ffc;
+  --secondaryText: #382a3f;
+
+  --themeDotBorder: #fff;
+  --helloText: #88fa08;
+  --previewBg: rgb(29, 21, 32, 0.8);
+  --previewShadow: #7a08fa;
+
+  --buttonColor: #8534a3;
+  --hoverColor: linear-gradient(
+    to bottom,
+    #7a08fa,
+    #a82ffc,
+    #c264fe,
+    #f8ecfd
+  );
+  --hoverTextColor: #88fa08;
+  --linkColor: #88fa08;
+  --footerText: white;
+}

@@ -1,0 +1,56 @@
+:root {
+  /* Dark Theme */
+  --mainColor: linear-gradient(to bottom, #2b2b26, #706b66, #a89f94, #e0dbcd);
+  --secondaryColor: #e0dbcd;
+  --footerColor: linear-gradient(to top, #2b2b26, #706b66, #a89f94, #e0dbcd);
+
+  --borderColor: #1d1520;
+
+  --mainText: #fff;
+  --sectionText: #2b2b26;
+  --secondaryText: #382a3f;
+
+  --themeDotBorder: #fff;
+  --helloText: linear-gradient(
+    to right,
+    #dc267f,
+    #785ef0,
+    #648fff,
+    #ffb000,
+    #fe6100
+  );
+  --previewBg: rgb(29, 21, 32, 0.8);
+  --previewShadow: #2b2b26;
+
+  --buttonColor: #2b2b26;
+  --hoverColor: linear-gradient(to bottom, #2b2b26, #706b66, #a89f94, #e0dbcd);
+  --hoverTextColor: white;
+  --linkColor: white;
+  --footerText: white;
+}
+
+.hello {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 10px rbga(0, 0, 0, 1);
+  animation: hue-shift 15s infinite alternate;
+}
+
+@keyframes hue-shift {
+  0%,
+  100% {
+    background-color: #dc267f;
+  }
+  20% {
+    background-color: #785ef0;
+  }
+  40% {
+    background-color: #648fff;
+  }
+  60% {
+    background-color: #ffb000;
+  }
+  80% {
+    background-color: #fe6100;
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  /* Crimson Theme */
+  --mainColor: linear-gradient(
+    to bottom,
+    #cb2233,
+    #e1674c,
+    #f3deba,
+    #941963,
+    #420e53
+  );
+  --secondaryColor: #fff6d3;
+
+  --borderColor: #c1c1c1;
+
+  --mainText: black;
+  --secondaryText: #4b5156;
+  --helloText: #f3deba;
+  --themeDotBorder: #24292e;
+
+  --previewBg: rgb(251, 249, 243, 0.8);
+  --previewShadow: #f0ead6;
+
+  --buttonColor: black;
+  --hoverColor: linear-gradient(to bottom, #cb2233, #e1674c, #941963, #420e53);
+  --hoverTextColor: #fff6d3;
+  --footerColor: linear-gradient(to bottom, #cb2233, #e1674c, #941963, #420e53);
+  --footerText: white;
+}
