@@ -1,56 +1,58 @@
 :root {
-  /* Dark Theme */
-  --mainColor: linear-gradient(to bottom, #2b2b26, #706b66, #a89f94, #e0dbcd);
-  --secondaryColor: #e0dbcd;
-  --footerColor: linear-gradient(to top, #2b2b26, #706b66, #a89f94, #e0dbcd);
+	/* Dark Theme */
+	--mainColor: conic-gradient(from -55deg, #2b2b26, #706b66, #a89f94, #e0dbcd);
+	--secondaryColor: #e0dbcd;
+	--thirdColor: #e0ded7;
+	--footerColor: linear-gradient(to top, #2b2b26, #706b66, #a89f94, #e0dbcd);
 
-  --borderColor: #1d1520;
+	--borderColor: #1d1520;
 
-  --mainText: #fff;
-  --sectionText: #2b2b26;
-  --secondaryText: #382a3f;
+	--mainText: #fff;
+	--sectionText: #2b2b26;
+	--secondaryText: #382a3f;
 
-  --themeDotBorder: #fff;
-  --helloText: linear-gradient(
-    to right,
-    #dc267f,
-    #785ef0,
-    #648fff,
-    #ffb000,
-    #fe6100
-  );
-  --previewBg: rgb(29, 21, 32, 0.8);
-  --previewShadow: #2b2b26;
+	--themeDotBorder: #fff;
+	--helloText: linear-gradient(
+		to right,
+		hsl(331, 72%, 51%),
+		hsl(251, 83%, 65%),
+		hsl(223, 100%, 70%),
+		hsl(41, 100%, 50%),
+		hsl(23, 100%, 50%)
+	);
+	--previewBg: rgb(29, 21, 32, 0.8);
+	--previewShadow: #2b2b26;
 
-  --buttonColor: #2b2b26;
-  --hoverColor: linear-gradient(to bottom, #2b2b26, #706b66, #a89f94, #e0dbcd);
-  --hoverTextColor: white;
-  --linkColor: white;
-  --footerText: white;
+	--buttonColor: #2b2b26;
+	--hoverColor: linear-gradient(to bottom, #2b2b26, #706b66, #a89f94, #e0dbcd);
+	--hoverTextColor: white;
+	--linkColor: white;
+	--footerText: white;
 }
 
 .hello {
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  text-shadow: 0 0 10px rbga(0, 0, 0, 1);
-  animation: hue-shift 15s infinite alternate;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-shadow: 0 0 10px rbga(0, 0, 0, 1);
+	animation: hue-shift 12s infinite alternate;
 }
 
 @keyframes hue-shift {
-  0%,
-  100% {
-    background-color: #dc267f;
-  }
-  20% {
-    background-color: #785ef0;
-  }
-  40% {
-    background-color: #648fff;
-  }
-  60% {
-    background-color: #ffb000;
-  }
-  80% {
-    background-color: #fe6100;
-  }
+	0%,
+	100% {
+		background-color: hsl(331, 72%, 51%);
+	}
+	20% {
+		background-color: hsl(251, 83%, 65%);
+	}
+	40% {
+		background-color: hsl(223, 100%, 70%);
+	}
+	60% {
+		background-color: hsl(41, 100%, 50%);
+	}
+	80% {
+		background-color: hsl(23, 100%, 50%);
+	}
 }

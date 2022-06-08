@@ -1,41 +1,30 @@
 :root {
-    /* Purple Theme */
-  --mainColor: linear-gradient(
-    to bottom,
-    #7a08fa,
-    #a82ffc,
-    #c264fe,
-    #f8ecfd
-  );
-  --secondaryColor: #edd5fe ;
-  --footerColor: linear-gradient(
-    to top,
-    #7a08fa,
-    #a82ffc,
-    #c264fe,
-    #f8ecfd
-  );
+	/* Purple Theme */
+	--mainColor: conic-gradient(from -55deg, #7a08fa, #a82ffc, #c264fe, #f8ecfd);
+	--secondaryColor: #edd5fe;
+	--thirdColor: #c264fe;
+	--footerColor: linear-gradient(to top, #7a08fa 20%, #a82ffc, #c264fe, #f8ecfd);
 
-  --borderColor: #1d1520;
+	--borderColor: #1d1520;
 
-  --mainText: #fff;
-  --sectionText: #a82ffc;
-  --secondaryText: #382a3f;
+	--mainText: #fff;
+	--sectionText: #382a3f;
+	--secondaryText: #382a3f;
+	--heartColor: #88fa08;
 
-  --themeDotBorder: #fff;
-  --helloText: #88fa08;
-  --previewBg: rgb(29, 21, 32, 0.8);
-  --previewShadow: #7a08fa;
+	--themeDotBorder: #fff;
+	--helloText: #88fa08;
+	--previewBg: rgb(29, 21, 32, 0.8);
+	--previewShadow: #7a08fa;
 
-  --buttonColor: #8534a3;
-  --hoverColor: linear-gradient(
-    to bottom,
-    #7a08fa,
-    #a82ffc,
-    #c264fe,
-    #f8ecfd
-  );
-  --hoverTextColor: #88fa08;
-  --linkColor: #88fa08;
-  --footerText: white;
+	--buttonColor: #8534a3;
+	--hoverColor: linear-gradient(to bottom, #7a08fa, #a82ffc, #c264fe, #f8ecfd);
+	--hoverTextColor: #88fa08;
+	--linkColor: #8efa3f;
+	--footerText: white;
 }
+
+/* Start https://www.cursors-4u.com */
+* {
+	cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1557.cur), auto !important;
+} /* End https://www.cursors-4u.com */
