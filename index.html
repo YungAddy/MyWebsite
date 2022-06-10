@@ -92,9 +92,6 @@
 	</style>
 	<body id="content">
 		
-		<!-- Preloader -->
-		<div id="loader"></div>
-		
 		<!-- Hero -->
 		<section class="s1">
 			<div class="main-container">
@@ -285,30 +282,6 @@ hideEvents.forEach((event) => {
 
 	</body>
 	<script type="text/javascript" src="script.js"></script>
-	<script>
-		// preloader
-		var loader;
-		function loadNow(opacity) {
-			if (opacity <= 0) {
-				displayContent();
-			} else {
-				loader.style.opacity = opacity;
-				window.setTimeout(function () {
-					loadNow(opacity - 0.05);
-				}, 100);
-			}
-		}
-
-		function displayContent() {
-			loader.style.display = "none";
-			document.getElementById("content").style.display = "block";
-		}
-
-		document.addEventListener("DOMContentLoaded", function () {
-			loader = document.getElementById("loader");
-			loadNow(1);
-		});
-	</script>
 	<!-- Footer -->
 	<footer id="content">
 		<div class="contact-info">
